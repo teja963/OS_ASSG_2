@@ -43,33 +43,33 @@
   
 * To insert our compiled module to the kernel run
   
-  	sudo insmod ebbchar.ko
+  		sudo insmod ebbchar.ko
   
 * To verify wheteher module inserted or not run
   
-  	lsmod |grep ebb
+  		lsmod |grep ebb
   
 * To show list of character devices and block devices run
   	
-  	cat /proc/devices
+  		cat /proc/devices
   
 * To make the device accessible run
   
-  	sudo mknod -m 666 /dev/ebbchar c 240 0 
+  		sudo mknod -m 666 /dev/ebbchar c 240 0 
         
 * To verify whether ebbchar is available for the given node run
   
-   	ls -l /dev/ebbchar
+   		ls -l /dev/ebbchar
    
 * To show the system log console run 
   
-  	dmesg
+  		dmesg
     
 * Now in the terminal compile the test.c file using
   
-  	gcc testbbchar.c -o testebbchar
+  		gcc testbbchar.c -o testebbchar
    
 * Now run
   
-	command: sudo ./test
+		sudo ./test
   
