@@ -46,7 +46,7 @@
   </pre>
   
 * To verify wheteher module inserted or not run
-  </pre>
+  <pre>
   lsmod |grep ebb
   </pre>
 
@@ -61,9 +61,9 @@
   </pre>      
   
 * To verify whether ebbchar is available for the given node run
-   <pre>
+  <pre>
    ls -l /dev/ebbchar
-    </pre> 
+  </pre> 
 * To show the system log console run 
   <pre>
   dmesg
