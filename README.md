@@ -39,7 +39,7 @@
 
 * To compile the modules of driver run
   
-  	make
+  		make
   
 * To insert our compiled module to the kernel run
   
