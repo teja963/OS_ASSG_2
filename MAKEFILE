@@ -1,5 +1,8 @@
-obj -m := ex07_simple_char_drv.o
+obj -m := assgn2_simple_char_drv.o
 
-make -C /lib/modules/$(uname -r)/build M=$PWD modules
+all:
+   make -C /lib/modules/$(uname -r)/build M=$PWD modules
 
+clean:
+   make -C /lib/modules/$(uname -r)/build M=$PWD clean
 
