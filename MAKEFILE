@@ -1,0 +1,5 @@
+obj -m := ex07_simple_char_drv.o
+
+make -C /lib/modules/$(uname -r)/build M=$PWD modules
+
+
