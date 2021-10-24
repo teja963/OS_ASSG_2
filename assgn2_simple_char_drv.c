@@ -68,7 +68,7 @@ module_init(assgn2_simple_module_init);
 module_exit(assgn2_simple_module_exit);
 
 MODULE_LICENSE("GFL");
-MODULE_AUTHOR("Group 21");
+MODULE_AUTHOR("Group 34");
 MODULE_DESCRIPTION("Character device driver");
 
 
